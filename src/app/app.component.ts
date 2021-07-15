@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'bai4';
   messageF = '';
+  // tslint:disable-next-line:typedef
   finishedCountdown(){
-    this.messageF = "finished!";
+    this.messageF = 'finished!';
   }
 }
